@@ -9,6 +9,7 @@
 /* WCAG 2.2 palette and clear keyboard focus. */
 :root{--ink:#0f172a;--muted:#475569;--purple:#6d28d9}
 :focus-visible{outline:3px solid #6d28d9;outline-offset:2px}
+a:focus-visible{outline-color:#6d28d9;outline-offset:2px}
 .benefits :focus-visible,.closing :focus-visible,.site-footer :focus-visible{outline-color:#fde047}
 .hero h1 em{color:#7c3aed}
 .button-primary{background:#6d28d9;box-shadow:0 12px 25px #6d28d92b}
@@ -27,3 +28,4 @@
 .section-kicker.light{color:#c4b5fd}
 @media(max-width:760px){.float-note{left:-5px;bottom:-50px}}
 @media(max-width:590px){.float-note{left:0;bottom:-50px}}
+@media(max-width:760px){nav a{font-size:.875rem}}
