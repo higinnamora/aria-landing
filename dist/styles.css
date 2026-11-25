@@ -22,8 +22,8 @@
 .score-circle{border-color:#6d28d9;background:#fff}
 .finding-icon.purple{color:#6d28d9}
 .finding-icon.green{color:#065f46}
-.float-note{left:-55px;bottom:-26px}
+.float-note{left:-55px;bottom:-50px}
 .pricing-note,.price span{color:#475569}
 .section-kicker.light{color:#c4b5fd}
-@media(max-width:760px){.float-note{left:-5px;bottom:-25px}}
-@media(max-width:590px){.float-note{left:0;bottom:-29px}}
+@media(max-width:760px){.float-note{left:-5px;bottom:-50px}}
+@media(max-width:590px){.float-note{left:0;bottom:-50px}}
